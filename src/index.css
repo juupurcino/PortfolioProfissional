@@ -3,8 +3,14 @@
   font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
-  background:linear-gradient(to right, #07775C,#0DDDAB);
+
   --branco: #FFFFF0;
+}
+
+body{
+
+  background:linear-gradient(to right, #07775C,#0DDDAB);
+
 }
 
 h1 {
@@ -17,14 +23,13 @@ h2 {
     color:var(--branco); 
     display: flex;
     font-weight: 600;
-    font-size: 350%;
-    margin-left: 3%;
-
+    font-size: 300%;
+    margin-left: 15%;
 }
 
-p {
+h3{
   color:var(--branco); 
-  text-align: center;
-  margin-left: 3%;
+
 }
+
 
