@@ -24,12 +24,21 @@ h2 {
     display: flex;
     font-weight: 600;
     font-size: 300%;
-    margin-left: 15%;
+
 }
 
 h3{
   color:var(--branco); 
+  font-size: 200%;
+}
+
+h4{
+  
+  color:var(--branco); 
+  font-size: 100%;
+  font-weight: 400;
 
 }
+
 
 

@@ -34,84 +34,26 @@ function App() {
             <img src="../public/img/perfil.png" alt="" />
       </div>
 
-      <div className={style.elemento}>
-        <div className={style.titulo}>
-          <h3>Experiências Profissionais</h3>
-        </div>
 
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
+      <div className={style.titulo}>
+        <h3>Experiências Profissionais</h3>
       </div>
+      < div className={style.elementoE}>
 
+          <div className={style.imagens}> 
+            <img src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/47938b1b273b72618bb7cd2cc5881c13" alt="" />
+          </div>
+            <h4>Furukawa Eletric Latam <br />Abril / 2022 - Maio / 2023 <br />Aprendiz de produção</h4>
 
-      <div className={style.elemento}>
-        <div className={style.titulo}>
-          <h3>Projetos</h3>
-        </div>
-
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
       </div>
+      < div className={style.elementoD}>
 
+            <h4>Bosch <br />Fevereiro / 2024 - Dezembro / 2025 <br />Aprendiz em soluções Digitais</h4>
+          <div className={style.imagens}> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDoP98eQqnZ8xUDwMMzmEm0E5L_psSG96BA&s" alt="" />
+          </div>
 
-      <div className={style.elemento}>
-        <div className={style.titulo}>
-          <h3>Contato</h3>
-        </div>
-
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
-        <div className={style.classes}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Furukawa_Electric_en_logo.svg/2560px-Furukawa_Electric_en_logo.svg.png" alt="" />
-        <div className={style.descricao}>
-          Furukawa 
-        </div>
-        </div>
       </div>
-
-
     </>
   )
 }
