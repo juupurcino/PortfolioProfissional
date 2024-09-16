@@ -1,33 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import style from './App.module.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+
+      <div className={style.menu}>
+        <a href=""><h4>Menu</h4></a>
+        <a href=""><h4>Apresentação</h4></a>
+        <a href=""><h4>Histórico Profissional</h4></a>
+        <a href=""><h4>Estudo</h4></a>
+        <a href=""><h4>Links</h4></a>
+      </div>
+
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1>Portfólio Pessoal</h1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className={style.apresentacao}>
+        <h2>Juliana Purcino</h2>
+
+      <div className={style.descricao}>
+          Olá, meu nome é Juliana, tenho 21 anos e sou de Curitiba, onde moro até hoje. 
+          Estudo Engenharia de Software e trabalho com soluções digitais, áreas que me fascinam 
+          e me permitem estar sempre em contato com novas tecnologias. Sou canceriana, 
+          nascida em 1º de julho, o que me faz valorizar muito a minha família e os amigos. 
+          No tempo livre, gosto de explorar novos hobbies e buscar um equilíbrio entre a 
+          vida profissional e pessoal.
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        
+      </div>
+
+
+
     </>
   )
 }

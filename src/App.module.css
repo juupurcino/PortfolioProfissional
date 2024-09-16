@@ -1,0 +1,40 @@
+#root {
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  --branco: #FFFFF0;
+  --verde: #92FFE5;
+
+}
+
+.menu {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.menu a{
+  color:var(--branco);
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none;
+}
+
+.apresentacao{
+
+
+}
+
+.descricao{
+
+    height: 25%; 
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: 120%;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
