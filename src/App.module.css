@@ -13,6 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+
 }
 
 .menu a{
@@ -40,16 +41,17 @@
     margin-top: 5%;
     color:var(--branco); 
     text-align: center;
-    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 60%;
 
 }
 
 .apresentacao img{
 
-  width: 30%;
+  width: 60%;
 
 }
 .elementoE{
@@ -98,7 +100,7 @@
 
 .imagens img {
 
-  width: 200px;
+  width: 80%;
   border-radius: 100%;
   border: solid 5px #41ebc3;
 }
@@ -111,13 +113,63 @@
 .projeto{
 
   background-color: #07775C;
-  border-radius: 100px;
+  border-radius: 10px;
+  margin: 2%;
   padding: 2%;
   margin-left: 10%;
   margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
 }
 
 .projeto img{
+  width: 40%;
+  border-radius: 10px;
+}
 
-  border-radius: 20px;
+.ajuste {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ajuste img{
+
+  width: 30%;
+}
+
+.icone {
+
+  width: 7% !important;
+  margin: 2%;
+
+}
+
+.contato {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  height: auto;
+}
+
+.contato img {
+
+  width: 4%;
+  border-radius: 100%;
+  margin: 2%;
+  height: auto;
+}
+
+.ajusteContato{
+
+  display: flex;
+  justify-content: space-between;
 }
