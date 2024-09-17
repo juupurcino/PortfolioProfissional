@@ -107,3 +107,17 @@
 
   margin: 3%;
 }
+
+.projeto{
+
+  background-color: #07775C;
+  border-radius: 100px;
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projeto img{
+
+  border-radius: 20px;
+}

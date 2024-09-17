@@ -6,20 +6,20 @@ function App() {
   return (
     <>
 
-      <div className={style.menu}>
+      <section className={style.menu}>
         <a href=""><h4>Menu</h4></a>
         <a href=""><h4>Apresentação</h4></a>
         <a href=""><h4>Histórico Profissional</h4></a>
         <a href=""><h4>Estudo</h4></a>
         <a href=""><h4>Links</h4></a>
-      </div>
+      </section>
 
       <div>
         <h1>Portfólio Pessoal</h1>
       </div>
 
 
-      <div className={style.apresentacao}>
+      <section className={style.apresentacao}>
         
         
         <div className={style.descricao}>
@@ -32,12 +32,12 @@ function App() {
             vida profissional e pessoal.
         </div>
             <img src="../public/img/perfil.png" alt="" />
-      </div>
+      </section>
 
-
-      <div className={style.titulo}>
+      <section className={style.titulo}>
         <h3>Experiências Profissionais</h3>
-      </div>
+      </section>
+
       < div className={style.elementoE}>
 
           <div className={style.imagens}> 
@@ -53,6 +53,14 @@ function App() {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDoP98eQqnZ8xUDwMMzmEm0E5L_psSG96BA&s" alt="" />
           </div>
 
+      </div>
+
+      <section className={style.titulo}>
+        <h3>Projetos</h3>
+      </section>
+
+      <div className={style.projeto}>
+        <img src="../public/img/termo.png" alt="" />
       </div>
     </>
   )
