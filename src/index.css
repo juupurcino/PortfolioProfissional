@@ -5,40 +5,48 @@
   font-weight: 400;
 
   --branco: #FFFFF0;
+  --verde: #92FFE5;
+  --azul-escuro: #07775C;
+  --verde-claro: #0DDDAB;
+  --g_inicial: #07775C;
+  --g_final: #0DDDAB;
+
+  --bordaP: 5px;
+  --bordaM: 10px;
+  --bordaG: 20px;
 }
 
-body{
-
-  background:linear-gradient(to right, #07775C,#0DDDAB);
-
+body {
+  background: linear-gradient(to right, var(--g_inicial), var(--g_final));
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-size: 400%;
-  color:var(--branco);
+  color: var(--branco);
   margin-left: 3%;
 }
 
 h2 {
-    color:var(--branco); 
-    display: flex;
-    font-weight: 600;
-    font-size: 300%;
-
+  color: var(--branco);
+  display: flex;
+  font-weight: 600;
+  font-size: 300%;
 }
 
-h3{
-  color:var(--branco); 
+h3 {
+  color: var(--branco);
   font-size: 200%;
 }
 
-h4{
-  
-  color:var(--branco); 
+h4 {
+  color: var(--branco);
   font-size: 100%;
   font-weight: 400;
-
+  margin: 0;
 }
 
-
-
+html {
+  scroll-behavior: smooth;
+}

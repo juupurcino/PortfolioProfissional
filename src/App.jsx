@@ -76,17 +76,32 @@ function App() {
 
       <div className={style.projeto}>
         <div className={style.ajuste}>
-          <div className={style.descricao}>
-            <h4>Projeto de termo</h4>
-          </div>
           <img src="../public/img/termo.png" alt="" />
-        <a href="https://github.com/Helengendary/TERMO.git" target="_blank">
-          <img
-            className={style.icone}
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt=""
-          />
-        </a>
+          <div className={style.descricao}>
+          <h4>Jogo "Termo"</h4> <p>Este projeto é uma realização da disciplina de Lógica de Programação, desenvolvido em C puro por Maraian e Helena. O jogo "Termo" foi criado com o objetivo de proporcionar uma experiência divertida e desafiadora, estimulando o raciocínio lógico dos jogadores. Ao longo do desenvolvimento, aplicamos diversos conceitos de programação, como estruturas de controle, manipulação de strings e gerenciamento de entrada e saída. Acreditamos que este projeto reflete não apenas o aprendizado teórico, mas também nossa criatividade e trabalho em equipe. Esperamos que todos apreciem o jogo tanto quanto nós gostamos de desenvolvê-lo!</p>
+          <a href="https://github.com/Helengendary/TERMO.git" target="_blank">
+            <img
+              className={style.icone}
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt=""
+              />
+          </a>
+              </div>
+        </div>
+      </div>
+
+      <div className={style.projeto}>
+        <div className={style.ajuste}>
+          <img src="https://github.com/adriansito124/Portf-lio/blob/main/Imagens/planta.png?raw=true" alt="" />
+          <div className={style.descricao}>
+          <h4>Regador Automático de Plantas</h4> <p>Este projeto é uma realização da disciplina de Internet das Coisas, desenvolvido por Adrian e Hamilton. O regador automático de plantas foi criado com o objetivo de facilitar o cuidado das plantas, proporcionando uma solução prática para quem tem uma rotina agitada. Durante o desenvolvimento, utilizamos sensores de umidade e uma interface web, aplicando conceitos de programação e eletrônica para garantir o monitoramento e a rega automática. Acreditamos que este projeto demonstra não apenas nosso aprendizado técnico, mas também a nossa criatividade e capacidade de trabalhar em equipe. Esperamos que todos apreciem a inovação e a funcionalidade deste sistema tanto quanto nós gostamos de desenvolvê-lo!</p>          <a href="https://github.com/juupurcino/Regador-de-planta-.git" target="_blank">
+            <img
+              className={style.icone}
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt=""
+              />
+          </a>
+              </div>
         </div>
       </div>
 
@@ -96,25 +111,22 @@ function App() {
             <h3>Contato</h3>
           </div>
           <div className={style.contato}>
-            <img
-              src="https://cdn-icons-png.freepik.com/256/15707/15707917.png?semt=ais_hybrid"
-              alt=""
-            />
-            <img
-              src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
-              alt=""
-            />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png"
-              alt=""
-            />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              alt=""
-            />
+            <a href="mailto:jdiaspurcino@gmail.com?subject=Contato%20via%20Portfólio&body=Olá%20Juliana,%20gostaria%20de%20entrar%20em%20contato%20com%20você." target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="E-mail" />
+            </a>
+            <a href="https://www.linkedin.com/in/juupurcino/" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="LinkedIn" />
+            </a>
+            <a href="https://wa.me/5541988503023?text=Olá%20Juliana,%20gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!" target="_blank">
+              <img src="https://cdn-icons-png.freepik.com/256/15707/15707917.png" alt="WhatsApp" />
+            </a>
+            <a href="https://github.com/juupurcino" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+            </a>
           </div>
         </div>
       </section>
+
     </>
   );
 }
